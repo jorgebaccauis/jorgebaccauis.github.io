@@ -54,7 +54,7 @@ time_format = "3:04 PM"
 email = "jbacquin@uis.edu.co"
 basin_id = ""
 phone = ""
-address = "Department of Systems and Informatics, Universidad Industrial de Santander (UIS), Bucaramanga, Colombia | GIPSA-lab, Université Grenoble Alpes, 11 rue des Mathématiques, 38402 Saint-Martin-d’Hères, Grenoble, France"
+address = "Escuela de Ingeniería de Sistemas e Informática, Universidad Industrial de Santander (UIS), Cra. 27 Calle 9, Bucaramanga, Santander, Colombia"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -73,9 +73,9 @@ contact_links = []
 #   3: OpenStreetMap (Mapbox)
 map = 2
 map_api_key = ""
-latitude = "45.1942356"
-longitude = "5.7718967"
-zoom = 15
+latitude = "7.1407"
+longitude = "-73.1210"
+zoom = 16
 
 ############################
 ## Plugins                ##
