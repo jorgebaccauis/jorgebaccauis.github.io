@@ -1,0 +1,67 @@
+/* Minimal monochrome experience list. Institutional logos retain their own colors. */
+.experience-list { max-width: 760px; }
+.experience-entry { display: flex; gap: 1.15rem; align-items: flex-start; padding: 1.35rem 0; border-bottom: 1px solid rgba(0,0,0,.15); }
+.experience-entry:first-of-type { padding-top: 0; }
+.experience-logo { width: 48px; height: 48px; flex: 0 0 48px; object-fit: contain; border-radius: 6px; }
+.experience-entry-content { min-width: 0; }
+.experience-entry .exp-title { margin: 0 0 .2rem; color: inherit; font-size: 1.08rem; font-weight: 700; line-height: 1.35; }
+.experience-entry .exp-company, .experience-entry .exp-meta { margin: 0; line-height: 1.55; }
+.experience-entry .exp-company a { color: inherit; }
+.experience-entry .employment-type, .experience-entry .exp-meta { color: #6c757d; }
+.dark .experience-entry { border-color: rgba(255,255,255,.18); }
+/* Buttons & Links */
+.btn-primary, .btn-outline-primary:hover, .btn-primary:hover, .btn-primary:focus { background: #212121; border-color: #212121; color: #fff; }
+.btn-outline-primary { color: #212121; border-color: #212121; }
+a, a:hover, a:focus { color: #212121; }
+.dark a, .dark a:hover, .dark a:focus { color: #f1f1f1; }
+
+/* Filter Buttons - Keep original horizontal button-group layout with proper dark mode colors */
+.project-toolbar { margin-bottom: 2rem; }
+.project-filters .list-inline { margin-bottom: 0; }
+.project-filters .btn-primary {
+  background-color: #212121;
+  border-color: #212121;
+  color: #fff;
+}
+.dark .project-filters .btn-primary {
+  background-color: #2a2e39;
+  border-color: #404756;
+  color: #e1e4e8;
+}
+.dark .project-filters .btn-primary:hover {
+  background-color: #383e4d;
+  border-color: #555d70;
+  color: #ffffff;
+}
+.dark .project-filters .btn-primary.active,
+.dark .project-filters .btn-primary:active {
+  background-color: #000000 !important;
+  border-color: #555d70 !important;
+  color: #ffffff !important;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Compact scholarly bibliography on the Publications section. */
+.publication-record {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .14);
+}
+.publication-record:first-child { border-top: 1px solid rgba(0, 0, 0, .14); }
+.publication-record__title { margin: 0 0 .3rem; font-size: 1.08rem; font-weight: 650; line-height: 1.42; }
+.publication-record__title a { text-decoration: none; }
+.publication-record__title a:hover, .publication-record__title a:focus { text-decoration: underline; }
+.publication-record__authors, .publication-record__venue { margin: 0; font-size: .94rem; line-height: 1.55; }
+.publication-record__authors { color: #4d4d4d; }
+.publication-record__venue { color: #6c757d; }
+.publication-record__links { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: .45rem; font-size: .88rem; }
+.publication-record__links a { text-decoration: underline; text-underline-offset: .14em; }
+.dark .publication-record { border-color: rgba(255, 255, 255, .2); }
+.dark .publication-record__authors { color: #d1d1d1; }
+.dark .publication-record__venue { color: #b9b9b9; }
+@media (max-width: 575.98px) {
+  .publication-record { padding: .9rem 0; }
+  .publication-record__title { font-size: 1rem; }
+  .publication-record__authors, .publication-record__venue { font-size: .9rem; }
+}
