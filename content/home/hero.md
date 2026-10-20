@@ -43,6 +43,6 @@ hero_media = "profesor.jpg"
 +++
 ## **Assistant Professor at UIS & Leader of PI Group**
 
-Jorge Bacca holds a B.S. in Systems Engineering (2017) and a Ph.D. in Computer Science (2021) from the Universidad Industrial de Santander (UIS). He is an Assistant Professor at UIS, Founder and Director of the **[Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/)**, and a Postdoctoral Visiting Researcher at GIPSA-lab, Université Grenoble Alpes (*PHAIMS* project).
+Jorge Bacca holds a B.S. in Systems Engineering (2017) and a Ph.D. in Computer Science (2021) from the Universidad Industrial de Santander (UIS). He is an Assistant Professor at UIS, Founder and Director of the **[Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/)**, and a Postdoctoral Visiting Researcher at GIPSA-lab, Université Grenoble Alpes.
 
 He serves as a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing* and has authored 28 journal articles (16 Q1) and over 30 conference papers (*CVPR*, *ECCVW*, *ICASSP*, *ICIP*, *Optica*, *IEEE SPM*, *IEEE TCI/TIP/TSP*). His research focuses on **inverse problems**, **computational and spectral imaging**, **modulo imaging & unlimited sampling**, **optimization**, and **deep learning**.

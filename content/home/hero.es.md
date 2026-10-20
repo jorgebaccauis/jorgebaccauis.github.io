@@ -33,6 +33,6 @@ link = "https://github.com/jorgebaccauis"
 +++
 ## **Profesor Asistente en la UIS y Líder del PI Group**
 
-Jorge Bacca es Ingeniero de Sistemas (2017) y Doctor en Ciencias de la Computación (2021) de la Universidad Industrial de Santander (UIS). Actualmente es Profesor Asistente en la UIS, Fundador y Director del **[Grupo de Investigación en Problemas Inversos (PI Group)](https://pigroupuis.github.io/pigroup-research/)**, e Investigador Posdoctoral Visitante en GIPSA-lab, Université Grenoble Alpes (proyecto *PHAIMS*).
+Jorge Bacca es Ingeniero de Sistemas (2017) y Doctor en Ciencias de la Computación (2021) de la Universidad Industrial de Santander (UIS). Actualmente es Profesor Asistente en la UIS, Fundador y Director del **[Grupo de Investigación en Problemas Inversos (PI Group)](https://pigroupuis.github.io/pigroup-research/)**, e Investigador Posdoctoral Visitante en GIPSA-lab, Université Grenoble Alpes.
 
 Se desempeña como Editor Asociado Consultor del *IEEE Open Journal of Signal Processing* y es autor de 28 artículos en revistas JCR (16 Q1) y más de 30 artículos en conferencias (*CVPR*, *ECCVW*, *ICASSP*, *ICIP*, *Optica*, *IEEE SPM*, *IEEE TCI/TIP/TSP*). Su investigación se centra en **problemas inversos**, **imagen computacional y espectral**, **modulo imaging y muestreo ilimitado**, **optimización** y **aprendizaje profundo**.
