@@ -1,0 +1,28 @@
+<!-- Publications list filter: plain show/hide in normal document flow (no Isotope, no absolute positioning). -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.js-pub-list').forEach(function (list) {
+      var section = list.closest('section');
+      var buttons = section.querySelectorAll('.project-filters a[data-filter]');
+      var items = list.querySelectorAll('.isotope-item');
+
+      function apply(selector) {
+        items.forEach(function (el) {
+          el.style.display = (selector === '*' || el.matches(selector)) ? '' : 'none';
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+          e.preventDefault();
+          buttons.forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          apply(btn.getAttribute('data-filter'));
+        });
+      });
+
+      var def = section.querySelector('.default-project-filter');
+      apply(def ? def.textContent.trim() || '*' : '*');
+    });
+  });
+</script>

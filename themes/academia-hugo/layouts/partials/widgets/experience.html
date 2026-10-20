@@ -1,0 +1,50 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- Experience widget -->
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-lg-8 experience-list">
+    {{ with $page.Content }}{{ . }}{{ end }}
+
+    {{ if $page.Params.experience }}
+    {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
+    <article class="experience-entry">
+      {{ with .logo }}<img class="experience-logo" src="{{ . }}" alt="{{ $key.logo_alt | default $key.company }}" loading="lazy">{{ end }}
+      <div class="experience-entry-content">
+        <h3 class="exp-title">{{.title | markdownify | emojify}}</h3>
+        <p class="exp-company">
+          {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
+          {{ with .employment_type }}<span class="employment-type"> · {{ . }}</span>{{ end }}
+        </p>
+        <p class="exp-meta">
+              {{ $ds := .date_start }}
+              {{ if and $ds (findRE "^\\d{4}$" $ds) }}
+                {{ $ds }} –
+              {{ else if $ds }}
+                {{ (time $ds).Format ($page.Params.date_format | default "January 2006") }} –
+              {{ end }}
+              {{ if .date_end }}
+                {{ $de := .date_end }}
+                {{ if and $de (findRE "^\\d{4}$" $de) }}
+                  {{ $de }}
+                {{ else }}
+                  {{ (time $de).Format ($page.Params.date_format | default "January 2006") }}
+                {{ end }}
+              {{ else }}
+                {{ i18n "present" | default "Present" }}
+              {{ end }}
+              {{with .location}}
+                <span class="middot-divider"></span>
+                <span>{{.}}</span>
+              {{end}}
+        </p>
+      </div>
+    </article>
+    {{end}}
+    {{end}}
+  </div>
+</div>

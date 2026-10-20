@@ -1,0 +1,41 @@
+# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches: ["main", "master"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  HUGO_ENV: production
+  NODE_VERSION: "18.15.0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Build Hugo site
+        run: npm run build
+
+      - name: Create .nojekyll
+        run: touch ./public/.nojekyll
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          force_orphan: true

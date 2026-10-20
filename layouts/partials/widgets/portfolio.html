@@ -1,0 +1,101 @@
+{{/* Portfolio Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "project" }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+{{ if ne $columns "1" }}
+{{/* Standard dual-column layout. */}}
+
+<div class="row">
+  <div class="col-12 text-center section-heading">
+
+    {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+  </div>
+  <div class="col-12">
+
+    {{ else }}
+    {{/* Single column layout. */}}
+
+    <div class="center-text">
+      {{ with $st.Title }}<h1 class="mt-0">{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+    <div>
+      {{ end }}
+
+      {{ with $st.Content }}<p>{{ . }}</p>{{ end }}
+
+      {{ if $st.Params.content.filter_button }}
+
+      {{ $filter_default := default (int $st.Params.content.filter_default) 0 }}
+
+      {{/* Parse default filter tag from front matter in the form of either tag name or CSS class name. */}}
+      {{ $default_filter_tag_raw := (index $st.Params.content.filter_button ($filter_default)).tag }}
+      {{ $default_filter_tag := printf ".js-id-%s" (replace $default_filter_tag_raw " " "-") }}
+      {{ if or (eq (substr $default_filter_tag_raw 0 1) "*") (eq (substr $default_filter_tag_raw 0 1) ".") }}
+      {{ $default_filter_tag = $default_filter_tag_raw }}
+      {{ end }}
+
+      <span class="d-none default-project-filter">{{ $default_filter_tag }}</span>
+
+      {{/* Only show filter buttons if there are multiple filters. */}}
+      {{ if gt (len $st.Params.content.filter_button) 1 }}
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">{{ range $idx, $item := $st.Params.content.filter_button }}
+              {{/* Parse filter tag from front matter in the form of either tag name or CSS class name. */}}
+              {{ $data_filter := printf ".js-id-%s" (replace .tag " " "-") }}
+              {{ if or (eq (substr .tag 0 1) "*") (eq (substr .tag 0 1) ".") }}
+              {{ $data_filter = .tag }}
+              {{ end }}
+              <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}"
+                class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">{{ .name }}</a>
+              {{ end }}
+            </li>
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+
+      {{/* List view (1) uses normal document flow + simple show/hide filtering (custom_js.html).
+           Isotope's absolute positioning caused records to overlap after filtering. */}}
+      <div class="{{ if eq $st.Params.design.view 1 }}js-pub-list{{ else }}{{ if or $st.Params.content.filter_button (eq $st.Params.design.view 3) }}isotope projects-container{{end}} {{if eq $st.Params.design.view 3}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $st.Params.design.view 5 }}project-showcase mt-5{{end}}{{ end }}">
+        {{/* Sort by weight if provided, otherwise fallback to date desc */}}
+        {{ $pages := where site.RegularPages "Type" $items_type }}
+        {{/* Bibliographic records are language-neutral; reuse the canonical records
+            on translated homepages until a record has its own translation. */}}
+        {{ if and (ne site.Language.Lang "en") (eq (len $pages) 0) }}
+          {{ $pages = where site.Sites.Default.RegularPages "Type" $items_type }}
+        {{ end }}
+        {{/* Split into pages with weight and without weight, list weighted first */}}
+          {{ $weighted := where $pages ".Params.weight" "ne" nil }}
+          {{ $unweighted := where $pages ".Params.weight" "==" nil }}
+          {{ $weighted = sort $weighted ".Params.weight" "asc" }}
+          {{ $unweighted = sort $unweighted ".Date" "desc" }}
+          {{ $pages = append $weighted $unweighted }}
+        {{ range $idx, $item := $pages }}
+        {{ $link := $item.RelPermalink }}
+        {{ $target := "" }}
+        {{ if $item.Params.external_link }}
+        {{ $link = $item.Params.external_link }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+        {{ if eq $st.Params.design.view 1 }}
+        {{ partial "project_li_list" (dict "widget" $st "index" $idx "item" $item "link" $link "target" $target) }}
+        {{ else if eq $st.Params.design.view 3 }}
+        {{ partial "project_li_card" (dict "widget" $st "index" $idx "item" $item "link" $link "target" $target) }}
+        {{ else }}
+        {{ partial "project_li_showcase" (dict "widget" $st "index" $idx "item" $item "link" $link "target" $target) }}
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
