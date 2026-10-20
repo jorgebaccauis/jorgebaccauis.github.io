@@ -6,8 +6,41 @@ active = true
 weight = 20
 
 title = "Experience"
-subtitle = "RESEARCH AND PROFESSIONAL EXPERIENCE"
+subtitle = "ACADEMIC, RESEARCH AND EDITORIAL POSITIONS"
 date_format = "Jan 2006"
+
+[[experience]]
+  title = "Postdoctoral & Visiting Researcher (PHAIMS Project)"
+  company = "GIPSA-lab, Université Grenoble Alpes"
+  employment_type = "Research Fellowship"
+  company_url = "https://www.gipsa-lab.grenoble-inp.fr/"
+  logo = "https://uis.edu.co/favicon.ico"
+  logo_alt = "GIPSA-lab"
+  location = "Grenoble, France"
+  date_start = "2026-04-01"
+  date_end = "2028-01-31"
+
+[[experience]]
+  title = "Founder & Director — Inverse Problems Research Group (PI Group)"
+  company = "PI Group (in formation), Universidad Industrial de Santander"
+  employment_type = "Research Leadership"
+  company_url = "https://pigroupuis.github.io/pigroup-research/"
+  logo = "https://uis.edu.co/favicon.ico"
+  logo_alt = "PI Group UIS"
+  location = "Bucaramanga, Colombia"
+  date_start = "2025-01-01"
+  date_end = ""
+
+[[experience]]
+  title = "Assistant Professor"
+  company = "Department of Systems and Informatics, Universidad Industrial de Santander (UIS)"
+  employment_type = "Full-time Faculty"
+  company_url = "https://uis.edu.co/"
+  logo = "https://uis.edu.co/favicon.ico"
+  logo_alt = "Universidad Industrial de Santander"
+  location = "Bucaramanga, Colombia"
+  date_start = "2023-01-01"
+  date_end = ""
 
 [[experience]]
   title = "Consulting Associate Editor"
@@ -20,24 +53,24 @@ date_format = "Jan 2006"
   date_end = ""
 
 [[experience]]
-  title = "Postdoctoral Researcher"
-  company = "Universidad Industrial de Santander"
+  title = "Postdoctoral Researcher & Adjunct Lecturer"
+  company = "Universidad Industrial de Santander (UIS)"
   employment_type = "Full-time"
   company_url = "https://uis.edu.co/"
   logo = "https://uis.edu.co/favicon.ico"
   logo_alt = "Universidad Industrial de Santander"
   location = "Bucaramanga, Colombia"
-  date_start = "2021-09-01"
-  date_end = ""
+  date_start = "2021-01-01"
+  date_end = "2023-01-01"
 
 [[experience]]
-  title = "Graduate Research Assistant / Ph.D. Candidate"
-  company = "HDSP Research Group, Universidad Industrial de Santander"
-  employment_type = "Full-time"
+  title = "Researcher / Ph.D. Candidate"
+  company = "High-Dimensional Signal Processing (HDSP) Group, Universidad Industrial de Santander"
+  employment_type = "Research Group"
   company_url = "https://hdspgroup.com/"
   logo = "https://uis.edu.co/favicon.ico"
   logo_alt = "HDSP Group"
   location = "Bucaramanga, Colombia"
-  date_start = "2017-02-01"
-  date_end = "2021-08-31"
+  date_start = "2015-01-01"
+  date_end = "2025-01-01"
 +++

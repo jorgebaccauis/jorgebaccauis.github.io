@@ -25,6 +25,10 @@
     url = "#experience"
     weight = 30
   [[es.menu.main]]
+    name = "PI Group"
+    url = "https://pigroupuis.github.io/pigroup-research/"
+    weight = 40
+  [[es.menu.main]]
     name = "Contacto"
     url = "#contact"
     weight = 50
@@ -47,18 +51,10 @@
     url = "#experience"
     weight = 30
   [[fr.menu.main]]
+    name = "PI Group"
+    url = "https://pigroupuis.github.io/pigroup-research/"
+    weight = 40
+  [[fr.menu.main]]
     name = "Contact"
     url = "#contact"
     weight = 50
-
-# Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1

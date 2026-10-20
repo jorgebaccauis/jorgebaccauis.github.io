@@ -16,7 +16,7 @@ authors:
   - Kebin Contreras
   - Luis Toscano-Palomino
   - Mauro Dalla Mura
-publication: "Preprint · arXiv:2607.22352"
+publication: "Preprint · arXiv:2607.22352 (Submitted to IEEE OJSP)"
 image:
   caption: ""
   focal_point: Smart

@@ -1,18 +1,18 @@
 ---
-title: "See the past: Time-Reversed Scene Reconstruction from Thermal Traces Using Visual Language Models"
+title: "See the Past: Time-Reversed Scene Reconstruction from Thermal Traces Using Visual Language Models"
 authors:
   - Kebin Contreras
   - Luis Toscano-Palomino
   - Mauro Dalla Mura
   - Jorge Bacca
-date: "2025-10-06T00:00:00Z"
+date: "2026-06-01T00:00:00Z"
 doi: "10.48550/arXiv.2510.05408"
-publishDate: "2025-10-06T00:00:00Z"
+publishDate: "2026-06-01T00:00:00Z"
 
-publication_types: ["3"]
+publication_types: ["1"]
 
-publication: In *arXiv preprint arXiv:2510.05408*
-publication_short: arXiv
+publication: In *IEEE International Conference on Image Processing (ICIP), 2026, pp. 1–6*
+publication_short: ICIP 2026
 
 abstract: "This work proposes a time-reversed reconstruction framework that uses paired RGB and thermal images to recover scene states from a few seconds earlier. The approach couples Visual-Language Models with a constrained diffusion process, where one VLM generates scene descriptions and another guides image reconstruction, ensuring semantic and structural consistency. Experiments demonstrate the feasibility of reconstructing plausible past frames up to 120 seconds earlier in controlled scenarios."
 
@@ -22,10 +22,10 @@ tags:
   - Thermal Imaging
   - Visual-Language Models
   - Reconstruction
-  - ArXiv
+  - Inverse Problems
 featured: false
 
-url_pdf: "https://arxiv.org/pdf/2510.05408"
+url_pdf: "/papers/SEE.pdf"
 url_source: "https://arxiv.org/abs/2510.05408"
 
 image:
@@ -38,4 +38,4 @@ projects:
 
 ---
 
-Detailed description and code references available in the arXiv preprint: https://arxiv.org/pdf/2510.05408
+Detailed description and code references available in the paper: https://arxiv.org/pdf/2510.05408

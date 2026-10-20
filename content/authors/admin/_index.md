@@ -9,32 +9,37 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Researcher | Consulting Associate Editor, IEEE OJSP
+role: Assistant Professor at UIS | Founder & Leader of PI Group | Postdoctoral & Visiting Researcher at GIPSA-lab
 
 # Organizations/Affiliations
 organizations:
-- name: Universidad Industrial de Santander (HDSP Group)
-  url: "https://hdspgroup.com"
+- name: Inverse Problems Research Group (PI Group) — UIS
+  url: "https://pigroupuis.github.io/pigroup-research/"
+- name: Universidad Industrial de Santander (UIS)
+  url: "https://uis.edu.co/"
+- name: GIPSA-lab, Université Grenoble Alpes
+  url: "https://www.gipsa-lab.grenoble-inp.fr/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research interests include inverse problems, deep learning methods, optical imaging, and hyperspectral imaging.
+bio: Research interests include inverse problems, computational imaging, modulo imaging & unlimited sampling, optimization, spectral imaging, and deep learning.
 
 # Should the user's education and interests be displayed?
 display_education: true
 
 interests:
-- Inverse Problems
-- Deep Learning Methods
-- Optical Imaging & Design
-- Hyperspectral & Compressive Imaging
-- Computer Vision
+- Inverse Problems & Optimization
+- Computational Imaging
+- Modulo Imaging & Unlimited Sampling
+- Spectral & Multimodal Imaging
+- Optical Coding Design
+- Deep Learning
 
 education:
   courses:
-  - course: Ph.D. in Computer Science
+  - course: Ph.D. in Computer Science (Laureate Thesis)
     institution: Universidad Industrial de Santander (UIS)
     year: 2021
-  - course: B.S. in Computer Science
+  - course: B.S. in Systems Engineering (Cum Laude & Laureate Thesis)
     institution: Universidad Industrial de Santander (UIS)
     year: 2017
 
@@ -51,19 +56,19 @@ social:
   link: https://orcid.org/0000-0001-5264-7891
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/jorge-luis-bacca-quintero-165b25139
+  link: https://www.linkedin.com/in/jorge-bacca-165b25139/
 - icon: github
   icon_pack: fab
   link: https://github.com/jorgebaccauis
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "jorge.bacca1@correo.uis.edu.co"
+email: "jbacquin@uis.edu.co"
   
 # Organizational groups that you belong to (for People widget)
 ---
 
-Jorge Bacca received the B.S. degree in Computer Science and the Ph.D. degree in Computer Science from the Universidad Industrial de Santander (UIS), Bucaramanga, Colombia, in 2017 and 2021, respectively. 
+Jorge Bacca received the B.S. degree in Systems Engineering (*cum laude*) and the Ph.D. degree in Computer Science (*laureate thesis*) from the Universidad Industrial de Santander (UIS), Bucaramanga, Colombia, in 2017 and 2021, respectively.
 
-He is currently a Postdoctoral Researcher at UIS and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He is an author of more than 10 journal papers and 30 conference proceedings related to optical design and high-level tasks directly from raw optical measurements. 
+He is an Assistant Professor in the Department of Systems and Informatics at UIS and the Founder and Director of the [Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/) (in formation). He is also a Postdoctoral and Visiting Researcher at GIPSA-lab, Université Grenoble Alpes (France) within the *PHAIMS* project, and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He has authored 28 JCR journal papers (16 Q1) and more than 30 conference proceedings in computational imaging, inverse problems, and signal processing.
 
-His current research interests include inverse problems, deep learning methods, optical imaging, and hyperspectral imaging.
+His current research interests include inverse problems, computational imaging, modulo imaging, unlimited sampling, optimization, spectral imaging, and deep learning.

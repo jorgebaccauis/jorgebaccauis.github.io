@@ -11,24 +11,14 @@ title = "Jorge Bacca"
 hero_media = "profesor.jpg"
 
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
   color = "#fff"
-  
-  # Background gradient.
-  # gradient_start = "#4bb4e3"
-  # gradient_end = "#000"
-  
-  # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
   text_color_light = false
+
+[btn]
+  url = "https://pigroupuis.github.io/pigroup-research/"
+  label = "PI Group (Inverse Problems Research Group)"
+  icon_pack = "fas"
+  icon = "users"
 
 # Social/academia Networking
 [[social]]
@@ -49,7 +39,7 @@ hero_media = "profesor.jpg"
 [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/jorge-luis-bacca-quintero-165b25139"
+  link = "https://www.linkedin.com/in/jorge-bacca-165b25139/"
 
 [[social]]
   icon = "github"
@@ -57,10 +47,10 @@ hero_media = "profesor.jpg"
   link = "https://github.com/jorgebaccauis"
 
 +++
-## **Postdoctoral Researcher & Computer Scientist**
+## **Assistant Professor at UIS & Leader of [PI Group](https://pigroupuis.github.io/pigroup-research/)**
 
-Jorge Bacca received the B.S. degree in Computer Science and the Ph.D. degree in Computer Science from the Universidad Industrial de Santander (UIS), Bucaramanga, Colombia, in 2017 and 2021, respectively.
+Jorge Bacca received the B.S. degree in Systems Engineering (*cum laude*) and the Ph.D. degree in Computer Science (*laureate thesis*) from the Universidad Industrial de Santander (UIS), Bucaramanga, Colombia, in 2017 and 2021, respectively.
 
-He is currently a Postdoctoral Researcher at UIS and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He is an author of more than 10 journal papers and 30 proceedings conferences related to optical design and high-level tasks directly from raw optical measurements.
+He is an **Assistant Professor** in the Department of Systems and Informatics at **Universidad Industrial de Santander (UIS)** and the Founder and Director of the **[Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/)** (in formation). He is also a Postdoctoral and Visiting Researcher at **GIPSA-lab, Université Grenoble Alpes** (France) within the *PHAIMS: Physics-aware AI for Imaging Science: from space to atoms* project, and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He has authored 28 JCR journal articles (16 Q1, including *IEEE SPM*, *Optica*, *IEEE TCI*, *IEEE TIP*, and *IEEE TSP*) and more than 30 international conference papers (including *CVPR*, *ECCVW*, *ICASSP*, and *ICIP*).
 
-His current research interests include **inverse problems**, **deep learning methods**, **optical imaging**, and **hyperspectral imaging**.
+His research develops mathematical foundations and algorithms for **inverse problems**, **computational imaging**, **modulo imaging & unlimited sampling**, **optimization**, **spectral imaging**, and **deep learning**.

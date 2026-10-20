@@ -10,7 +10,8 @@ date: "2022-05-01T00:00:00Z"
 weight: 2
 publication_link: "/publication/jr2net/"
 pdf_url: "https://arxiv.org/pdf/2205.07770"
-source_url: "https://github.com/hdspgroup/JR2net"
+source_url: "https://arxiv.org/abs/2205.07770"
+code_url: "https://github.com/hdspgroup/JR2net"
 authors:
   - Brayan Monroy
   - Jorge Bacca

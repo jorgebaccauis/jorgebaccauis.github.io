@@ -15,7 +15,7 @@ day_night = true
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Assistant Professor at Universidad Industrial de Santander (UIS) & Founder/Leader of PI Group (Inverse Problems Research Group)."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -30,8 +30,6 @@ logo = ""
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-# highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
@@ -53,10 +51,10 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "jorge.bacca1@correo.uis.edu.co"
+email = "jbacquin@uis.edu.co"
 basin_id = ""
 phone = ""
-address = "Université Grenoble Alpes (UGA), GIPSA-lab, 11 rue des Mathématiques, 38402 Saint-Martin-d’Hères, Grenoble, France"
+address = "Department of Systems and Informatics, Universidad Industrial de Santander (UIS), Bucaramanga, Colombia | GIPSA-lab, Université Grenoble Alpes, 11 rue des Mathématiques, 38402 Saint-Martin-d’Hères, Grenoble, France"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -68,16 +66,6 @@ appointment_url = ""
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = []
 
-# Display a map.
-# To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-# a map provider below.
-# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-#   https://developers.google.com/maps/documentation/javascript/get-api-key
-# To use OpenStreetMap tiles, set `map = 2`.
-# To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-#   https://www.mapbox.com/studio/account/tokens
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-#
 # Map provider:
 #   0: No map
 #   1: Google Maps
@@ -93,9 +81,6 @@ zoom = 15
 ## Plugins                ##
 ############################
 
-# Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_css = []
 plugins_js  = []
 
@@ -103,55 +88,29 @@ plugins_js  = []
 ## Advanced options       ##
 ############################
 
-# Get user avatars from Gravatar.com? (true/false)
 gravatar = false
-
-# Align the main menu to the right of the page? (true/false)
 menu_align_right = true
-
-# Show estimated reading time for posts? (true/false)
 reading_time = true
-
-# Display comment count (if commenting enabled in config.toml)? (true/false)
 comment_count = true
-
-# Display next/previous section pager? (true/false)
 section_pager = false
-docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
-
-# Enable in-built social sharing buttons? (true/false)
+docs_section_pager = true
 sharing = true
 
 # Configuration of publication pages.
 [publications]
-  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "January 2006"
-
-  # Citation style ("apa" or "mla")
   citation_style = "apa"
 
 # Configuration of project pages.
 [projects]
-  # Views for associated content.
-  #   1: List
-  #   2: Compact
-  #   3: Card
-  #   4: Citation (publications only)
   post_view = 3
   publication_view = 3
   talk_view = 2
 
 # Search.
 [search]
-  # Search provider:
-  #   0: No search engine
-  #   1: academia (built-in)
-  #   2: Algolia (https://www.algolia.com)
   engine = 0
 
-  # Configuration of Algolia search engine.
-  # Paste the values from your Algolia dashboard.
   [search.algolia]
     app_id = ""
     api_key = ""

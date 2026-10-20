@@ -10,7 +10,8 @@ date: "2021-11-01T00:00:00Z"
 weight: 1
 publication_link: "/fr/publication/shift_variant/"
 pdf_url: "https://opg.optica.org/fulltext.cfm?uri=optica-8-11-1424&id=464500"
-source_url: "https://github.com/jorgebaccauis/Shift-Variant-System"
+source_url: "https://opg.optica.org/optica/abstract.cfm?URI=optica-8-11-1424"
+code_url: "https://github.com/jorgebaccauis/Shift-Variant-System"
 authors:
   - Henry Arguello
   - Samuel Pinilla
@@ -18,7 +19,7 @@ authors:
   - Hayato Ikoma
   - Jorge Bacca
   - Gordon Wetzstein
-publication: Optica 8(11), 1424-1434 (2021)
+publication: Optica 8(11), 1424–1434 (2021)
 image:
   caption: ""
   focal_point: Smart
