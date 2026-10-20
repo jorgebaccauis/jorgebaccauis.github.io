@@ -10,7 +10,7 @@ subtitle = "ACADEMIC, RESEARCH AND EDITORIAL POSITIONS"
 date_format = "Jan 2006"
 
 [[experience]]
-  title = "Postdoctoral & Visiting Researcher (PHAIMS Project)"
+  title = "Postdoctoral & Visiting Researcher (PHAIMS)"
   company = "GIPSA-lab, Université Grenoble Alpes"
   employment_type = "Research Fellowship"
   company_url = "https://www.gipsa-lab.grenoble-inp.fr/"
@@ -21,8 +21,8 @@ date_format = "Jan 2006"
   date_end = "2028-01-31"
 
 [[experience]]
-  title = "Founder & Director — Inverse Problems Research Group (PI Group)"
-  company = "PI Group (in formation), Universidad Industrial de Santander"
+  title = "Founder & Director — PI Group"
+  company = "Inverse Problems Research Group (in formation), UIS"
   employment_type = "Research Leadership"
   company_url = "https://pigroupuis.github.io/pigroup-research/"
   logo = "https://uis.edu.co/favicon.ico"
@@ -33,7 +33,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Assistant Professor"
-  company = "Department of Systems and Informatics, Universidad Industrial de Santander (UIS)"
+  company = "Dept. of Systems and Informatics, Universidad Industrial de Santander (UIS)"
   employment_type = "Full-time Faculty"
   company_url = "https://uis.edu.co/"
   logo = "https://uis.edu.co/favicon.ico"
@@ -65,7 +65,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Researcher / Ph.D. Candidate"
-  company = "High-Dimensional Signal Processing (HDSP) Group, Universidad Industrial de Santander"
+  company = "HDSP Group, Universidad Industrial de Santander"
   employment_type = "Research Group"
   company_url = "https://hdspgroup.com/"
   logo = "https://uis.edu.co/favicon.ico"

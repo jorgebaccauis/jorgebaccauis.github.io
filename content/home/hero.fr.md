@@ -10,12 +10,6 @@ hero_media = "profesor.jpg"
 color = "#fff"
 text_color_light = false
 
-[btn]
-url = "https://pigroupuis.github.io/pigroup-research/"
-label = "PI Group (Groupe de Recherche en Problèmes Inverses)"
-icon_pack = "fas"
-icon = "users"
-
 [[social]]
 icon = "envelope"
 icon_pack = "fas"
@@ -37,10 +31,8 @@ icon = "github"
 icon_pack = "fab"
 link = "https://github.com/jorgebaccauis"
 +++
-## **Professeur Assistant à l'UIS et Directeur du [PI Group](https://pigroupuis.github.io/pigroup-research/)**
+## **Professeur Assistant à l'UIS et Directeur du PI Group**
 
-Jorge Bacca a obtenu son diplôme d'ingénieur en systèmes (*cum laude*) et son doctorat en informatique (*thèse lauréate*) à l'Universidad Industrial de Santander (UIS), Bucaramanga, Colombie, en 2017 et 2021, respectivement.
+Jorge Bacca est titulaire d'un diplôme d'ingénieur des systèmes (2017) et d'un doctorat en informatique (2021) de l'Universidad Industrial de Santander (UIS). Il est Professeur Assistant à l'UIS, Fondateur et Directeur du **[Groupe de Recherche en Problèmes Inverses (PI Group)](https://pigroupuis.github.io/pigroup-research/)**, et Chercheur Postdoctoral Invité au GIPSA-lab, Université Grenoble Alpes (projet *PHAIMS*).
 
-Il est **Professeur Assistant** au Département des Systèmes et d'Informatique de l'**Universidad Industrial de Santander (UIS)** et Fondateur et Directeur du **[Groupe de Recherche en Problèmes Inverses (PI Group)](https://pigroupuis.github.io/pigroup-research/)** (en formation). Il est également chercheur postdoctoral et invité au **GIPSA-lab, Université Grenoble Alpes** (France) dans le cadre du projet *PHAIMS : Physics-aware AI for Imaging Science: from space to atoms*, et rédacteur en chef associé consultant pour *IEEE Open Journal of Signal Processing*. Il est l'auteur de 28 articles de revues JCR (dont 16 Q1, incluant *IEEE SPM*, *Optica*, *IEEE TCI*, *IEEE TIP* et *IEEE TSP*) et de plus de 30 actes de conférences internationales (*CVPR*, *ECCVW*, *ICASSP*, *ICIP*).
-
-Ses recherches portent sur les fondements mathématiques et les algorithmes pour les **problèmes inverses**, l'**imagerie computationnelle**, le **modulo imaging et l'échantillonnage illimité**, l'**optimisation**, l'**imagerie spectrale** et l'**apprentissage profond**.
+Il est rédacteur en chef associé consultant pour *IEEE Open Journal of Signal Processing* et auteur de 28 articles de revues JCR (16 Q1) et de plus de 30 actes de conférences (*CVPR*, *ECCVW*, *ICASSP*, *ICIP*, *Optica*, *IEEE SPM*, *IEEE TCI/TIP/TSP*). Ses recherches portent sur les **problèmes inverses**, l'**imagerie computationnelle et spectrale**, le **modulo imaging et l'échantillonnage illimité**, l'**optimisation** et l'**apprentissage profond**.

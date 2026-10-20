@@ -14,12 +14,6 @@ hero_media = "profesor.jpg"
   color = "#fff"
   text_color_light = false
 
-[btn]
-  url = "https://pigroupuis.github.io/pigroup-research/"
-  label = "PI Group (Inverse Problems Research Group)"
-  icon_pack = "fas"
-  icon = "users"
-
 # Social/academia Networking
 [[social]]
   icon = "envelope"
@@ -47,10 +41,8 @@ hero_media = "profesor.jpg"
   link = "https://github.com/jorgebaccauis"
 
 +++
-## **Assistant Professor at UIS & Leader of [PI Group](https://pigroupuis.github.io/pigroup-research/)**
+## **Assistant Professor at UIS & Leader of PI Group**
 
-Jorge Bacca received the B.S. degree in Systems Engineering (*cum laude*) and the Ph.D. degree in Computer Science (*laureate thesis*) from the Universidad Industrial de Santander (UIS), Bucaramanga, Colombia, in 2017 and 2021, respectively.
+Jorge Bacca holds a B.S. in Systems Engineering (2017) and a Ph.D. in Computer Science (2021) from the Universidad Industrial de Santander (UIS). He is an Assistant Professor at UIS, Founder and Director of the **[Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/)**, and a Postdoctoral Visiting Researcher at GIPSA-lab, Université Grenoble Alpes (*PHAIMS* project).
 
-He is an **Assistant Professor** in the Department of Systems and Informatics at **Universidad Industrial de Santander (UIS)** and the Founder and Director of the **[Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/)** (in formation). He is also a Postdoctoral and Visiting Researcher at **GIPSA-lab, Université Grenoble Alpes** (France) within the *PHAIMS: Physics-aware AI for Imaging Science: from space to atoms* project, and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He has authored 28 JCR journal articles (16 Q1, including *IEEE SPM*, *Optica*, *IEEE TCI*, *IEEE TIP*, and *IEEE TSP*) and more than 30 international conference papers (including *CVPR*, *ECCVW*, *ICASSP*, and *ICIP*).
-
-His research develops mathematical foundations and algorithms for **inverse problems**, **computational imaging**, **modulo imaging & unlimited sampling**, **optimization**, **spectral imaging**, and **deep learning**.
+He serves as a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing* and has authored 28 journal articles (16 Q1) and over 30 conference papers (*CVPR*, *ECCVW*, *ICASSP*, *ICIP*, *Optica*, *IEEE SPM*, *IEEE TCI/TIP/TSP*). His research focuses on **inverse problems**, **computational and spectral imaging**, **modulo imaging & unlimited sampling**, **optimization**, and **deep learning**.
