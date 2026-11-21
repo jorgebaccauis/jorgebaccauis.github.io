@@ -8,9 +8,9 @@
     "hugo": "^0.0.3"
   },
   "scripts": {
-    "dev": "npx hugo-extended server",
-    "build": "npx hugo-extended --gc --minify",
-    "serve": "npx hugo-extended server -D",
+    "dev": "npx hugo-extended@0.124.1 server",
+    "build": "npx hugo-extended@0.124.1 --gc --minify",
+    "serve": "npx hugo-extended@0.124.1 server -D",
     "dev:example": "cd exampleSite; hugo server --themesDir ../..",
     "build:example": "cd exampleSite; hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "test:example": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
