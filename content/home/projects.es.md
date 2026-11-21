@@ -3,9 +3,11 @@ widget = "portfolio"
 headless = true
 active = true
 weight = 15
-title = "PUBLICACIONES"
-subtitle = "Artículos de revista, artículos de conferencia y prepublicaciones"
+title = "Publicaciones destacadas"
+subtitle = "Artículos en revistas y conferencias"
 [content]
+
+  selected = ["project/unrolled_modulo_tci", "project/cocoa_hyperspectral_dataset", "project/gr2r_cvpr", "project/band_selection", "project/shift_variant", "project/deep_coded_aperture"]
 page_type = "project"
 filter_default = 0
 [[content.filter_button]]

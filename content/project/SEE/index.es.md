@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "See the Past: Time-Reversed Scene Reconstruction from Thermal Traces Using Visual Language Models"
 authors:
   - Kebin Contreras

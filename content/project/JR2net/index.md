@@ -1,4 +1,6 @@
 ---
+publication_category: conference
+draft: true
 title: "JR2net: A Joint Non-Linear Representation and Recovery Network for Compressive Spectral Imaging"
 summary: "Deep learning framework for joint non-linear representation and compressive spectral reconstruction."
 tags:

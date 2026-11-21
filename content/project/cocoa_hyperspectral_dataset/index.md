@@ -1,4 +1,6 @@
 ---
+display_priority: 20
+publication_category: journal
 title: "A Multimodal hyperspectral dataset of cocoa beans with physicochemical annotation"
 summary: "A multimodal hyperspectral dataset of cocoa beans with physicochemical annotations for non-invasive quality assessment."
 tags:

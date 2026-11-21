@@ -1,4 +1,5 @@
 ---
+publication_category: journal
 title: "Shift-Variant Color-Coded Diffractive Spectral Imaging System"
 summary: "End-to-end design of diffractive optical elements (DOE) and color-coded apertures (CCA) published in Optica."
 tags:

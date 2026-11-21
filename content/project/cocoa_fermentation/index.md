@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "Automated Classification of Cocoa Bean Fermentation Levels Using Computer Vision"
 summary: 
 tags:

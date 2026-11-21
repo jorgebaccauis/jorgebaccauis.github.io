@@ -1,4 +1,6 @@
 ---
+code_url: "https://github.com/kebincontreras/ObjectDetectionModulo"
+publication_category: conference
 title: "High Dynamic Range Modulo Imaging for Robust Object Detection in Autonomous Driving"
 authors:
   - Kebin Contreras

@@ -1,4 +1,6 @@
 ---
+publication_category: conference
+draft: true
 title: "A Gradient-Regularized Deep Learning Method for Restoring Image in Myopic Vision"
 summary: "Preprint: a gradient-regularized neural approach to compensate for modeled myopic defocus."
 tags:

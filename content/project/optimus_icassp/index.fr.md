@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "OptimUS: Optimization-Based Unlimited Sampling Algorithm"
 authors:
   - Jorge Bacca

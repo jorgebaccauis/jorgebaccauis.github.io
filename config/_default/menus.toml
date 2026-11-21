@@ -19,7 +19,7 @@
   weight = 30
 
 [[main]]
-  name = "PI Group"
+  name = "PiGroup"
   url = "https://pigroupuis.github.io/pigroup-research/"
   weight = 40
 
@@ -27,3 +27,8 @@
   name = "Contact"
   url = "#contact"
   weight = 50
+
+[[main]]
+  name = "Awards"
+  url = "#accomplishments"
+  weight = 25

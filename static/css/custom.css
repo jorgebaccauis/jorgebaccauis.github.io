@@ -65,3 +65,14 @@ a, a:hover, a:focus { color: #212121; }
   .publication-record__title { font-size: 1rem; }
   .publication-record__authors, .publication-record__venue { font-size: .9rem; }
 }
+
+.award-entry { display:flex; gap:1.25rem; padding:1.15rem 0; border-bottom:1px solid rgba(0,0,0,.14); }
+.award-year { flex:0 0 3rem; font-weight:700; }
+.award-entry h3 { margin:0 0 .3rem; font-size:1.08rem; line-height:1.4; }
+.award-entry p { margin:0; font-size:.94rem; line-height:1.55; }
+.award-organization { color:#6c757d; }
+.publication-record__badge { display:inline-block; margin:.4rem 0 0; font-size:.82rem; font-weight:700; }
+.dark .award-entry { border-color:rgba(255,255,255,.2); }
+.dark .award-organization { color:#b9b9b9; }
+
+.experience-logo[alt="GIPSA-lab"] { width:72px; flex-basis:72px; height:48px; }

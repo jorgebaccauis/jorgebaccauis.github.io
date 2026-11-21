@@ -37,7 +37,7 @@ links:
 #- name: Custom Link
 #  url: http://example.org
 url_pdf: "papers/High_Dynamic_Range_Modulo_Imaging_for_Robust_Object_Detection_in_Autonomous_Driving.pdf"
-url_code: 'https://github.com/kebincontreras/ObjectDetectionModulo'
+url_code: "https://github.com/kebincontreras/ObjectDetectionModulo"
 url_source: "https://link.springer.com/chapter/10.1007/978-3-031-91767-7_12"
 # url_dataset: '#'
 # url_poster: '#'

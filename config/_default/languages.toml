@@ -25,7 +25,7 @@
     url = "#experience"
     weight = 30
   [[es.menu.main]]
-    name = "PI Group"
+    name = "PiGroup"
     url = "https://pigroupuis.github.io/pigroup-research/"
     weight = 40
   [[es.menu.main]]
@@ -51,10 +51,20 @@
     url = "#experience"
     weight = 30
   [[fr.menu.main]]
-    name = "PI Group"
+    name = "PiGroup"
     url = "https://pigroupuis.github.io/pigroup-research/"
     weight = 40
   [[fr.menu.main]]
     name = "Contact"
     url = "#contact"
     weight = 50
+
+[[es.menu.main]]
+  name = "Premios"
+  url = "#accomplishments"
+  weight = 25
+
+[[fr.menu.main]]
+  name = "Prix"
+  url = "#accomplishments"
+  weight = 25

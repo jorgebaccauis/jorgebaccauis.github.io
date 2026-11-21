@@ -1,4 +1,6 @@
 ---
+publication_category: conference
+draft: true
 title: "Deep Scene-Driven Ordering of Hadamard Basis for Single-Pixel Spectral Imaging"
 summary: "Preprint: scene-driven adaptive ordering of Hadamard basis patterns for single-pixel spectral imaging."
 tags:

@@ -10,7 +10,7 @@
      resource metadata lives on the canonical English record. */}}
 {{ $resource_page := $item }}
 {{ if not $item.Params.pdf_url }}
-  {{ with site.Sites.Default.GetPage $item.TranslationKey }}{{ $resource_page = . }}{{ end }}
+  {{ with (index site.Sites 0).GetPage $item.TranslationKey }}{{ $resource_page = . }}{{ end }}
 {{ end }}
 {{ $pdf_url := $resource_page.Params.pdf_url | default "" }}
 {{ $pdf_is_local := and $pdf_url (not (hasPrefix $pdf_url "http")) }}

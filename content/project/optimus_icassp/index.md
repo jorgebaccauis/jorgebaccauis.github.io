@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "OptimUS: Optimization-Based Unlimited Sampling Algorithm"
 summary: "Optimization-based unlimited sampling recovery formulated via regularization and ADMM."
 tags:

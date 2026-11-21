@@ -5,10 +5,12 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "PUBLICATIONS"
-subtitle = "Journal articles, conference papers, and preprints"
+title = "Selected publications"
+subtitle = "Journal articles and conference papers"
 
 [content]
+
+  selected = ["project/unrolled_modulo_tci", "project/cocoa_hyperspectral_dataset", "project/gr2r_cvpr", "project/band_selection", "project/shift_variant", "project/deep_coded_aperture"]
   # Page type to display. E.g. project.
   page_type = "project"
   

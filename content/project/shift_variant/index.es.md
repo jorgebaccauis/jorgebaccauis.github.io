@@ -1,4 +1,5 @@
 ---
+publication_category: journal
 title: "Sistema de Imágenes Espectrales Difractivas Variantes en el Espacio con Codificación de Color"
 summary: "Diseño óptico diferenciable extremo a extremo de elementos difractivos (DOE) y aperturas codificadas en color (CCA) publicado en Optica."
 tags:

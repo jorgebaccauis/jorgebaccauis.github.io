@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "A Gradient-Regularized Deep Learning Method for Restoring Image in Myopic Vision"
 authors:
   - Kebin Contreras

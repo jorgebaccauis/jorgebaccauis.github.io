@@ -1,4 +1,6 @@
 ---
+publication_category: conference
+draft: true
 title: "Learning to Recorrupt: Noise Distribution Agnostic Self-Supervised Image Denoising"
 summary: "Preprint: noise distribution agnostic self-supervised image denoising via learned recorruption."
 tags:

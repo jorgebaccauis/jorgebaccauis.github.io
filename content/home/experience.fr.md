@@ -4,27 +4,27 @@ headless = true
 active = true
 weight = 20
 title = "Expérience"
-subtitle = "POSTES ACADÉMIQUES, DE RECHERCHE ET ÉDITORIAUX"
+subtitle = "POSTES ACADÉMIQUES ET DE RECHERCHE"
 date_format = "Jan 2006"
 
 [[experience]]
-title = "Chercheur Postdoctoral et Invité (PHAIMS)"
+title = "Chercheur Postdoctoral et Invité"
 company = "GIPSA-lab, Université Grenoble Alpes"
-employment_type = "Séjour Postdoctoral"
+
 company_url = "https://www.gipsa-lab.grenoble-inp.fr/"
-logo = "https://uis.edu.co/favicon.ico"
+logo = "/img/logos/gipsa-lab.png"
 logo_alt = "GIPSA-lab"
 location = "Grenoble, France"
 date_start = "2026-04-01"
-date_end = "2028-01-31"
+date_end = ""
 
 [[experience]]
-title = "Fondateur et Directeur — PI Group"
+title = "Fondateur et Directeur — PiGroup"
 company = "Groupe de Recherche en Problèmes Inverses (en formation), UIS"
 employment_type = "Direction de Groupe"
 company_url = "https://pigroupuis.github.io/pigroup-research/"
 logo = "https://uis.edu.co/favicon.ico"
-logo_alt = "PI Group UIS"
+logo_alt = "PiGroup UIS"
 location = "Bucaramanga, Colombie"
 date_start = "2025-01-01"
 date_end = ""
@@ -41,16 +41,6 @@ date_start = "2023-01-01"
 date_end = ""
 
 [[experience]]
-title = "Rédacteur en chef associé consultant"
-company = "IEEE Open Journal of Signal Processing"
-employment_type = "Éditorial"
-company_url = "https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing"
-logo = "https://signalprocessingsociety.org/themes/custom/ieee_sps/favicon.ico"
-logo_alt = "IEEE"
-date_start = "2022-01-01"
-date_end = ""
-
-[[experience]]
 title = "Chercheur Postdoctoral et Chargé de Cours"
 company = "Universidad Industrial de Santander (UIS)"
 employment_type = "Temps plein"
@@ -62,7 +52,7 @@ date_start = "2021-01-01"
 date_end = "2023-01-01"
 
 [[experience]]
-title = "Chercheur / Doctorant"
+title = "Chercheur (doctorat obtenu en 2021)"
 company = "Groupe HDSP, Universidad Industrial de Santander"
 employment_type = "Groupe de Recherche"
 company_url = "https://hdspgroup.com/"

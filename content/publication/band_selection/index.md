@@ -1,4 +1,5 @@
 ---
+url_code: "https://github.com/Enmartz/DSBS"
 title: "Deep learning-based spectral band selection for hyperspectral imaging tasks"
 authors:
   - Emmanuel Martinez

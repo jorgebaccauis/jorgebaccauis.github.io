@@ -9,11 +9,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Assistant Professor at UIS | Founder & Leader of PI Group | Postdoctoral & Visiting Researcher at GIPSA-lab
+role: Assistant Professor at UIS | Founder & Leader of PiGroup | Postdoctoral & Visiting Researcher at GIPSA-lab
 
 # Organizations/Affiliations
 organizations:
-- name: Inverse Problems Research Group (PI Group) — UIS
+- name: Inverse Problems Research Group (PiGroup) — UIS
   url: "https://pigroupuis.github.io/pigroup-research/"
 - name: Universidad Industrial de Santander (UIS)
   url: "https://uis.edu.co/"
@@ -69,6 +69,6 @@ email: "jbacquin@uis.edu.co"
 
 Jorge Bacca received the B.S. degree in Systems Engineering (*cum laude*) and the Ph.D. degree in Computer Science (*laureate thesis*) from the Universidad Industrial de Santander (UIS), Bucaramanga, Colombia, in 2017 and 2021, respectively.
 
-He is an Assistant Professor in the Department of Systems and Informatics at UIS and the Founder and Director of the [Inverse Problems Research Group (PI Group)](https://pigroupuis.github.io/pigroup-research/) (in formation). He is also a Postdoctoral and Visiting Researcher at GIPSA-lab, Université Grenoble Alpes (France) within the *PHAIMS* project, and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He has authored 28 JCR journal papers (16 Q1) and more than 30 conference proceedings in computational imaging, inverse problems, and signal processing.
+He is an Assistant Professor in the Department of Systems and Informatics at UIS and the Founder and Director of the [Inverse Problems Research Group (PiGroup)](https://pigroupuis.github.io/pigroup-research/) (in formation). He is also a Postdoctoral and Visiting Researcher at GIPSA-lab, Université Grenoble Alpes (France) within the *PHAIMS* project, and a Consulting Associate Editor for the *IEEE Open Journal of Signal Processing*. He has authored **28 JCR journal articles: 16 Q1 and 12 Q2** and conference papers in computational imaging, inverse problems, and signal processing.
 
 His current research interests include inverse problems, computational imaging, modulo imaging, unlimited sampling, optimization, spectral imaging, and deep learning.

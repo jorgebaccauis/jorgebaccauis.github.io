@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "Deep Robust Object Detection Under High Illumination Conditions Using Modulo Images"
 summary: 
 tags:

@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: High Dynamic Range Modulo Imaging for Robust Object Detection in Autonomous Driving
 summary:
 tags:

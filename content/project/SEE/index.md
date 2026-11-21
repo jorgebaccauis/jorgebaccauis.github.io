@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "See the Past: Time-Reversed Scene Reconstruction from Thermal Traces Using Visual Language Models"
 summary: "Time-reversed scene reconstruction from thermal traces using Visual-Language Models and constrained diffusion."
 tags:

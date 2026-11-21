@@ -15,7 +15,7 @@ day_night = true
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Assistant Professor at Universidad Industrial de Santander (UIS) & Founder/Leader of PI Group (Inverse Problems Research Group)."
+description = "Assistant Professor at Universidad Industrial de Santander (UIS) & Founder/Leader of PiGroup (Inverse Problems Research Group)."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -54,7 +54,7 @@ time_format = "3:04 PM"
 email = "jbacquin@uis.edu.co"
 basin_id = ""
 phone = ""
-address = "Escuela de Ingeniería de Sistemas e Informática, Universidad Industrial de Santander (UIS), Cra. 27 Calle 9, Bucaramanga, Santander, Colombia"
+address = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -71,7 +71,7 @@ contact_links = []
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 2
+map = 0
 map_api_key = ""
 latitude = "7.1407"
 longitude = "-73.1210"

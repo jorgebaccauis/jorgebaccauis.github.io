@@ -1,4 +1,7 @@
 ---
+display_priority: 10
+code_url: "https://github.com/bemc22/ModuloUnrolled"
+publication_category: journal
 title: "Deep Lightweight Unrolled Network for High Dynamic Range Modulo Imaging"
 summary: "Lightweight unrolled deep network with self-supervised adaptation for high dynamic range recovery from modulo measurements."
 tags:

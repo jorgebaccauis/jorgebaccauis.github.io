@@ -1,4 +1,7 @@
 ---
+display_priority: 20
+code_url: "https://github.com/kebincontreras/CoCoaSpec"
+publication_category: journal
 title: "A Multimodal hyperspectral dataset of cocoa beans with physicochemical annotation"
 authors:
   - Kebin Contreras

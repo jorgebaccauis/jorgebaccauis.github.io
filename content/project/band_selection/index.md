@@ -1,4 +1,6 @@
 ---
+code_url: "https://github.com/Enmartz/DSBS"
+publication_category: journal
 title: "Deep learning-based spectral band selection for hyperspectral imaging tasks"
 summary: 
 tags:

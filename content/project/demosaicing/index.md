@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "Self-Supervised Low-Light Quantum RGB Image Demosaicing"
 summary: 
 tags:

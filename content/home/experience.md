@@ -6,27 +6,27 @@ active = true
 weight = 20
 
 title = "Experience"
-subtitle = "ACADEMIC, RESEARCH AND EDITORIAL POSITIONS"
+subtitle = "ACADEMIC AND RESEARCH POSITIONS"
 date_format = "Jan 2006"
 
 [[experience]]
-  title = "Postdoctoral & Visiting Researcher (PHAIMS)"
+  title = "Postdoctoral & Visiting Researcher"
   company = "GIPSA-lab, Université Grenoble Alpes"
-  employment_type = "Research Fellowship"
+
   company_url = "https://www.gipsa-lab.grenoble-inp.fr/"
-  logo = "https://uis.edu.co/favicon.ico"
+  logo = "/img/logos/gipsa-lab.png"
   logo_alt = "GIPSA-lab"
   location = "Grenoble, France"
   date_start = "2026-04-01"
-  date_end = "2028-01-31"
+  date_end = ""
 
 [[experience]]
-  title = "Founder & Director — PI Group"
+  title = "Founder & Director — PiGroup"
   company = "Inverse Problems Research Group (in formation), UIS"
   employment_type = "Research Leadership"
   company_url = "https://pigroupuis.github.io/pigroup-research/"
   logo = "https://uis.edu.co/favicon.ico"
-  logo_alt = "PI Group UIS"
+  logo_alt = "PiGroup UIS"
   location = "Bucaramanga, Colombia"
   date_start = "2025-01-01"
   date_end = ""
@@ -43,16 +43,6 @@ date_format = "Jan 2006"
   date_end = ""
 
 [[experience]]
-  title = "Consulting Associate Editor"
-  company = "IEEE Open Journal of Signal Processing"
-  employment_type = "Editorial"
-  company_url = "https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing"
-  logo = "https://signalprocessingsociety.org/themes/custom/ieee_sps/favicon.ico"
-  logo_alt = "IEEE"
-  date_start = "2022-01-01"
-  date_end = ""
-
-[[experience]]
   title = "Postdoctoral Researcher & Adjunct Lecturer"
   company = "Universidad Industrial de Santander (UIS)"
   employment_type = "Full-time"
@@ -64,7 +54,7 @@ date_format = "Jan 2006"
   date_end = "2023-01-01"
 
 [[experience]]
-  title = "Researcher / Ph.D. Candidate"
+  title = "Researcher (Ph.D. completed in 2021)"
   company = "HDSP Group, Universidad Industrial de Santander"
   employment_type = "Research Group"
   company_url = "https://hdspgroup.com/"

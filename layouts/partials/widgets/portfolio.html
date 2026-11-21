@@ -67,19 +67,29 @@
       {{/* List view (1) uses normal document flow + simple show/hide filtering (custom_js.html).
            Isotope's absolute positioning caused records to overlap after filtering. */}}
       <div class="{{ if eq $st.Params.design.view 1 }}js-pub-list{{ else }}{{ if or $st.Params.content.filter_button (eq $st.Params.design.view 3) }}isotope projects-container{{end}} {{if eq $st.Params.design.view 3}}js-layout-masonry{{else}}row js-layout-row{{end}} {{ if eq $st.Params.design.view 5 }}project-showcase mt-5{{end}}{{ end }}">
-        {{/* Sort by weight if provided, otherwise fallback to date desc */}}
+        {{/* Show newest publications first, independently of legacy weights. */}}
         {{ $pages := where site.RegularPages "Type" $items_type }}
         {{/* Bibliographic records are language-neutral; reuse the canonical records
             on translated homepages until a record has its own translation. */}}
         {{ if and (ne site.Language.Lang "en") (eq (len $pages) 0) }}
-          {{ $pages = where site.Sites.Default.RegularPages "Type" $items_type }}
+          {{ $pages = where (index site.Sites 0).RegularPages "Type" $items_type }}
         {{ end }}
-        {{/* Split into pages with weight and without weight, list weighted first */}}
-          {{ $weighted := where $pages ".Params.weight" "ne" nil }}
-          {{ $unweighted := where $pages ".Params.weight" "==" nil }}
-          {{ $weighted = sort $weighted ".Params.weight" "asc" }}
-          {{ $unweighted = sort $unweighted ".Date" "desc" }}
-          {{ $pages = append $weighted $unweighted }}
+        {{ with $st.Params.content.category }}
+          {{ $pages = where $pages "Params.publication_category" . }}
+        {{ end }}
+        {{/* Requested featured positions precede the remaining records by date. */}}
+        {{ $prioritized := sort (where $pages "Params.display_priority" "ne" nil) "Params.display_priority" "asc" }}
+        {{ $chronological := sort (where $pages "Params.display_priority" "eq" nil) ".Date" "desc" }}
+        {{ $pages = $prioritized }}
+        {{ range $chronological }}{{ $pages = $pages | append . }}{{ end }}
+        {{/* An explicit selection preserves the requested editorial order. */}}
+        {{ with $st.Params.content.selected }}
+          {{ $selection := slice }}
+          {{ range . }}
+            {{ with site.GetPage . }}{{ $selection = $selection | append . }}{{ end }}
+          {{ end }}
+          {{ $pages = $selection }}
+        {{ end }}
         {{ range $idx, $item := $pages }}
         {{ $link := $item.RelPermalink }}
         {{ $target := "" }}

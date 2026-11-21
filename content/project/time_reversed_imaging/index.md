@@ -1,4 +1,6 @@
 ---
+publication_category: conference
+draft: true
 title: "Time-Reversed Imaging: A Multimodal Benchmark and Framework for Reconstructing Past Human-Environment Interactions"
 summary: "Preprint: a multimodal benchmark and reconstruction framework for inferring recent human-environment interactions from residual physical traces."
 tags:

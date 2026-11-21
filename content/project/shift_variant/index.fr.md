@@ -1,4 +1,5 @@
 ---
+publication_category: journal
 title: "Système d'Imagerie Spectrale Diffractive Variant dans l'Espace avec Codage Couleur"
 summary: "Conception optique différentiable de bout en bout d'éléments optiques diffractifs (DOE) et d'ouvertures codées publiée dans Optica."
 tags:

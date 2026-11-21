@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "JR2net: A Joint Non-Linear Representation and Recovery Network for Compressive Spectral Imaging"
 authors:
   - Brayan Monroy

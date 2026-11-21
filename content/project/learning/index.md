@@ -1,4 +1,6 @@
 ---
+publication_category: conference
+draft: true
 title: "Learning-based Spectral Regression for Cocoa Bean Physicochemical Property Prediction"
 summary: "Predict physicochemical properties of cocoa beans from VIS-NIR spectral data using learning-based regression."
 tags:

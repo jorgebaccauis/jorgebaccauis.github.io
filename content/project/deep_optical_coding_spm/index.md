@@ -1,4 +1,6 @@
 ---
+draft: true
+publication_category: journal
 title: "Deep Optical Coding Design in Computational Imaging"
 summary: "Overview of data-driven and end-to-end deep optical coding design in computational imaging."
 tags:

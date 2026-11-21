@@ -1,61 +1,71 @@
 +++
-# Accomplishments widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 9  # Order that this section will appear.
-
-title = "Accomplish&shy;ments"
-subtitle = "Key Highlights from my academic and professional career"
-
-# Date format
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "Jan 2006"
-
-# Accomplishments.
-#   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
-#   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+widget = "awards"
+headless = true
+active = true
+weight = 18
+title = "Awards & distinctions"
+subtitle = "Selected recognitions"
 
 [[item]]
-  organization = "ECCV 2024"
-  organization_url = "https://eccv-ecva-net.translate.goog/Conferences/2024?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"
-  title = "Best Paper Award"
-  url = ""
-  certificate_url = "certificates/Best_paper_Constancia_Paper_ROAM_HighDynamic.pdf"
-  date_start = "2024-01-01"
-  date_end = ""
-  description = "Award for the paper High Dynamic Range Modulo Imaging for Robust Object Detection in Autonomous Driving"
+year = "2026"
+title = "Premio Eloy Valenzuela — Modulo Imaging"
+organization = "UIS"
+description = "Research project award."
+url = "https://drive.google.com/file/d/1qIoZGej59HRUkQY11rVA0OibyR3TNBPs/view?usp=sharing"
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
-  
-[[item]]
-  organization = "RDX"
-  organization_url = "https://www.rdx.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+year = "2025"
+title = "NVIDIA GPU Grant"
+organization = "NVIDIA"
+description = "Research hardware grant."
+url = "https://drive.google.com/file/d/17K1cpJ7M6CfnEkrW52suvXYUwFBeuGrI/view?usp=sharing"
 
+[[item]]
+year = "2024"
+title = "Best Paper Award"
+organization = "ROAM Workshop · ECCV 2024"
+description = "High Dynamic Range Modulo Imaging for Robust Object Detection in Autonomous Driving"
+url = "https://drive.google.com/file/d/1HtNRZpmDeVZu4Ps0en68NpwAxKuX6XoG/view?usp=sharing"
+
+[[item]]
+year = "2022"
+title = "Premio Eloy Valenzuela"
+organization = "UIS"
+description = "Consolidated Researcher distinction."
+url = "https://drive.google.com/file/d/1ZEbNbuvhxgNEUgYkmPgyJtI3M3GivxA6/view?usp=sharing"
+
+[[item]]
+year = "2021"
+title = "Laureate doctoral thesis"
+organization = "UIS"
+description = "Ph.D. in Computer Science."
+url = "https://drive.google.com/file/d/1NaJ0-8cWyW3Qxpcc-Y7j16qIbLC39mL0/view?usp=sharing"
+
+[[item]]
+year = "2019"
+title = "Joven Investigador · 2018 & 2019"
+organization = "Minciencias / Colciencias"
+description = "Awarded twice."
+url = "https://drive.google.com/file/d/1R4Q5QzxrKc15NFNFVK7lDzf1XT-B47JN/view?usp=drive_link"
+
+[[item]]
+year = "2019"
+title = "Innovate Challenge"
+organization = "UNIRED · Ecopetrol ICP"
+description = "Applied research competition winner."
+url = "https://drive.google.com/file/d/1ZAb8anJTW4010v3VBDBytGWs-5IbId4P/view?usp=sharing"
+
+[[item]]
+year = "2017"
+title = "Cum laude · Systems Engineering"
+organization = "UIS"
+description = "Graduated first among 300 students."
+url = "https://drive.google.com/file/d/1cHMJZtCigH9QIP6JrgIY4920DS-a51OM/view?usp=sharing"
+
+[[item]]
+year = "2017"
+title = "Laureate undergraduate thesis"
+organization = "UIS"
+description = "Systems Engineering undergraduate thesis."
+url = "https://drive.google.com/file/d/1SwKSWlxkW8QLFrZrxszH3j-NIed6U7rP/view?usp=sharing"
 +++

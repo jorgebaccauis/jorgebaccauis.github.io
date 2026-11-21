@@ -1,4 +1,6 @@
 ---
+code_url: "https://github.com/bemc22/AHFD"
+publication_category: conference
 title: "Autoregressive High-Order Finite Difference Modulo Imaging: High-Dynamic Range for Computer Vision Applications"
 authors:
   - Brayan Monroy

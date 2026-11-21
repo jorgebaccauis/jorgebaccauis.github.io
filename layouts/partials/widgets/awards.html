@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ .page.Title }}</h1>
+    {{ with .page.Params.subtitle }}<p>{{ . }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-lg-8 awards-list">
+    {{ range .page.Params.item }}
+    <article class="award-entry">
+      <p class="award-year">{{ .year }}</p>
+      <div><h3><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></h3>
+      <p class="award-organization">{{ .organization }}</p><p>{{ .description }}</p></div>
+    </article>
+    {{ end }}
+  </div>
+</div>

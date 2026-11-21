@@ -4,27 +4,27 @@ headless = true
 active = true
 weight = 20
 title = "Experiencia"
-subtitle = "POSICIONES ACADÉMICAS, DE INVESTIGACIÓN Y EDITORIALES"
+subtitle = "POSICIONES ACADÉMICAS Y DE INVESTIGACIÓN"
 date_format = "Jan 2006"
 
 [[experience]]
-title = "Investigador Posdoctoral y Visitante (PHAIMS)"
+title = "Investigador Posdoctoral y Visitante"
 company = "GIPSA-lab, Université Grenoble Alpes"
-employment_type = "Estancia Posdoctoral"
+
 company_url = "https://www.gipsa-lab.grenoble-inp.fr/"
-logo = "https://uis.edu.co/favicon.ico"
+logo = "/img/logos/gipsa-lab.png"
 logo_alt = "GIPSA-lab"
 location = "Grenoble, Francia"
 date_start = "2026-04-01"
-date_end = "2028-01-31"
+date_end = ""
 
 [[experience]]
-title = "Fundador y Director — PI Group"
+title = "Fundador y Director — PiGroup"
 company = "Grupo de Investigación en Problemas Inversos (en formación), UIS"
 employment_type = "Dirección de Grupo"
 company_url = "https://pigroupuis.github.io/pigroup-research/"
 logo = "https://uis.edu.co/favicon.ico"
-logo_alt = "PI Group UIS"
+logo_alt = "PiGroup UIS"
 location = "Bucaramanga, Colombia"
 date_start = "2025-01-01"
 date_end = ""
@@ -41,16 +41,6 @@ date_start = "2023-01-01"
 date_end = ""
 
 [[experience]]
-title = "Editor Asociado Consultor"
-company = "IEEE Open Journal of Signal Processing"
-employment_type = "Editorial"
-company_url = "https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing"
-logo = "https://signalprocessingsociety.org/themes/custom/ieee_sps/favicon.ico"
-logo_alt = "IEEE"
-date_start = "2022-01-01"
-date_end = ""
-
-[[experience]]
 title = "Investigador Posdoctoral y Profesor de Cátedra"
 company = "Universidad Industrial de Santander (UIS)"
 employment_type = "Tiempo completo"
@@ -62,7 +52,7 @@ date_start = "2021-01-01"
 date_end = "2023-01-01"
 
 [[experience]]
-title = "Investigador / Candidato Doctoral"
+title = "Investigador (doctorado finalizado en 2021)"
 company = "Grupo HDSP, Universidad Industrial de Santander"
 employment_type = "Grupo de Investigación"
 company_url = "https://hdspgroup.com/"

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Learning-based Spectral Regression for Cocoa Bean Physicochemical Property Prediction"
 authors:
   - Kebin Contreras

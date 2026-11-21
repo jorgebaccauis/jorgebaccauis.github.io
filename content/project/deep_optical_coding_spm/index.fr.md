@@ -1,4 +1,6 @@
 ---
+draft: true
+publication_category: journal
 title: "Deep Optical Coding Design in Computational Imaging"
 authors:
   - Henry Arguello

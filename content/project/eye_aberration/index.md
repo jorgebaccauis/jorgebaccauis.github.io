@@ -1,4 +1,5 @@
 ---
+publication_category: conference
 title: "Computational Correction of Eye Aberrations: A Physical Modeling Approach with Zernike Polynomials and Deep Learning"
 summary: 
 tags:

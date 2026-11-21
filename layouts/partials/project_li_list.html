@@ -10,7 +10,7 @@
      resource metadata lives on the canonical English record. */}}
 {{ $resource_page := $item }}
 {{ if not $item.Params.pdf_url }}
-  {{ with site.Sites.Default.GetPage $item.TranslationKey }}{{ $resource_page = . }}{{ end }}
+  {{ with (index site.Sites 0).GetPage $item.TranslationKey }}{{ $resource_page = . }}{{ end }}
 {{ end }}
 {{ $tags := $item.Params.tags }}
 {{ if and (not $tags) $resource_page }}
@@ -55,6 +55,8 @@
     {{ if and $publication $item.Date }}<span aria-hidden="true"> · </span>{{ end }}
     {{ with $item.Date }}<time datetime="{{ .Format "2006-01-02" }}" itemprop="datePublished">{{ .Format "2006" }}</time>{{ end }}
   </p>
+
+  {{ with $resource_page.Params.publication_badge }}<p class="publication-record__badge">{{ . }}</p>{{ end }}
 
   {{ if or $resource_page.Params.source_url $resource_page.Params.code_url $resource_page.Params.dataset_url $resource_page.Params.pdf_license_url }}
   <nav class="publication-record__links" aria-label="Publication links">
